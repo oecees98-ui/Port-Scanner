@@ -13,8 +13,7 @@ A multi-threaded TCP port scanner built in Python — a networking/cybersecurity
 - Identifies common services (SSH, HTTP, HTTPS, MySQL, RDP, etc.) by port number
 - Configurable timeout and thread count
 
-## Why this project matters
-
+##The "why?"
 Port scanning is a foundational networking/recon concept in cybersecurity. This project demonstrates:
 - Understanding of the **TCP three-way handshake** and how `connect()` scanning works
 - Practical use of Python's `socket` and `threading` modules
