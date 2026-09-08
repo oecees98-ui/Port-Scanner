@@ -1,6 +1,6 @@
 # Network Port Scanner
 
-A multi-threaded TCP port scanner built in Python — a classic beginner networking/cybersecurity project that teaches the fundamentals behind tools like **Nmap**.
+A multi-threaded TCP port scanner built in Python — a networking/cybersecurity project that teaches the fundamentals behind tools like **Nmap**.
 
 > ⚠️ **Legal & Ethical Notice**
 > Only scan hosts you **own** or have **explicit written permission** to test — e.g. `127.0.0.1` (your own machine), a local VM, or a lab environment like [scanme.nmap.org](https://scanme.nmap.org) (Nmap's own official test target). Scanning systems without authorization is illegal in most jurisdictions and violates most Terms of Service.
@@ -69,11 +69,3 @@ port-scanner/
 └── README.md
 ```
 
-## Possible Improvements (good "next steps" to show growth)
-- Add UDP scanning support
-- Add banner grabbing to identify service versions
-- Export results to JSON/CSV
-- Add a `--stealth` SYN-scan mode using `scapy` (requires raw sockets/admin privileges)
-
-## License
-MIT License — free to use for learning and portfolio purposes.
